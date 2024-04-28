@@ -46,3 +46,4 @@ class UserAdmin(BaseUserAdmin):
 admin.site.register(models.User, UserAdmin) #without useradmin it wont affect the admin page
 admin.site.register(models.Recipe)
 admin.site.register(models.Tag)
+admin.site.register(models.Ingredient)
